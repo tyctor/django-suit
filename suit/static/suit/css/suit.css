@@ -3707,17 +3707,19 @@ body.dashboard .deletelink:before { content: ""; color: #E04F3C; }
 
 #changelist #changelist-filter:not(:empty) + #changelist-form { margin-right: 2rem; }
 
-#changelist #toolbar { margin-bottom: 1.5rem; }
+#changelist #toolbar { margin-bottom: 0.75rem; }
 
 #changelist #toolbar #changelist-search label { display: none; }
 
-#changelist #toolbar #changelist-search input[type='submit'] { display: inline-block; margin-right: 1rem; }
+#changelist #toolbar #changelist-search input[type='submit'] { display: inline-block; margin-right: 1rem; margin-bottom: 0.375rem; }
 
 #changelist #toolbar #changelist-search input[type='submit']:before { margin-right: 3px; display: inline-block; font-family: FontAwesome; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: auto; content: ""; }
 
-#changelist #toolbar #changelist-search input[type='text'] { display: inline-block; width: auto; vertical-align: middle; }
+#changelist #toolbar #changelist-search input[type='text'] { display: inline-block; width: auto; vertical-align: middle; margin-bottom: 0.375rem; }
 
 #changelist #toolbar #changelist-search input[type='text']:before { font-family: FontAwesome; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: auto; content: ""; }
+
+#changelist #toolbar #changelist-search select { margin-bottom: 0.375rem; }
 
 #changelist #toolbar #changelist-search .small { font-size: 0.929rem; }
 
