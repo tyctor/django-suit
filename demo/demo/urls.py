@@ -20,6 +20,9 @@ from django.views.generic import RedirectView
 
 from . import views
 
+admin.autodiscover()
+admin.site.enable_nav_sidebar = False
+
 urlpatterns = [
 
     # Django Suit custom admin view

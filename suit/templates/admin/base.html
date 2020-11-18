@@ -148,3 +148,9 @@
 
 {#    <div> <!-- Fix/close div previously closed by footer -->#}
 {% endblock %}
+
+<!-- This is a solution to remove the sidebar that is not compatible with django-suit. -->
+<!-- at this time in _content.scss I hide #changelist-filter
+{#% block nav-sidebar %#}
+    {#% include "suit/nav_sidebar.html" %#}
+{#% endblock %#}
