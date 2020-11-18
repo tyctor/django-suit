@@ -16,14 +16,14 @@ body.change-form {
     flex: 1 1 auto;
     min-width: 0;
 }
-body.change-list, body.change-form{
+body.change-list, body.change-form {
   #container > div {
-    flex-shrink: 0;
+    flex-shrink: 0; //Ici
   }
 
   #container > .main {
     display: flex;
-    flex: 1 0 auto;
+    flex: 1 1 auto; //Ici
   }
 
   .main > .content {

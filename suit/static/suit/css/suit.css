@@ -3572,7 +3572,7 @@ body.change-form #container br.clear:last-child { display: none; }
 
 body.change-list #container > div, body.change-form #container > div { -ms-flex-negative: 0; flex-shrink: 0; }
 
-body.change-list #container > .main, body.change-form #container > .main { display: -ms-flexbox; display: flex; -ms-flex: 1 0 auto; flex: 1 0 auto; }
+body.change-list #container > .main, body.change-form #container > .main { display: -ms-flexbox; display: flex; -ms-flex: 1 1 auto; flex: 1 1 auto; }
 
 body.change-list .main > .content, body.change-form .main > .content { -ms-flex: 1 0; flex: 1 0; max-width: 100%; }
 
