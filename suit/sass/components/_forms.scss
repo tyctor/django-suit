@@ -147,6 +147,13 @@ fieldset {
   }
 }
 
+ul.errorlist {
+  margin: 0;
+  padding-left: 1.5rem;
+  font-size: $font-size-xs;
+  color: $brand-danger;
+}
+
 // BS4 markup in .suit-form
 // -----------------------------------------
 .suit-form {
