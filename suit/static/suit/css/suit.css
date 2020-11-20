@@ -2909,7 +2909,7 @@ ul.errorlist li:first-child { margin-top: 0; }
 
 ul.errorlist li a { color: inherit; text-decoration: underline; }
 
-.suit-form .form-group + .errors input, .suit-form .form-group + .errors select { border-color: #E04F3C; }
+.suit-form .form-group.errors input, .suit-form .form-group.errors select { border-color: #E04F3C; }
 
 .suit-form .form-group { margin: 0; background-color: #f6f6f6; }
 

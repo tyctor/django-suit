@@ -172,7 +172,7 @@ ul.errorlist li a {
     text-decoration: underline;
 }
 .suit-form {
-  .form-group + .errors {
+  .form-group.errors {
     input, select {
         border-color: $brand-danger;
     }
