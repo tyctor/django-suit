@@ -1,9 +1,12 @@
 /*!
- * Bootstrap v4.5.3 (https://getbootstrap.com)
- * Copyright 2011-2016 The Bootstrap Authors
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Bootstrap v5.0.2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../../bower_components/bootstrap/scss/functions";
 
 // Core variables and mixins
 //@import "../../bower_components/bootstrap/scss/variables";
@@ -11,13 +14,15 @@
 
 // Reset and dependencies
 //@import "../../bower_components/bootstrap/scss/normalize";
-@import "../../bower_components/bootstrap/scss/print";
+//@import "../../bower_components/bootstrap/scss/print";
 
 // Core CSS
+@import "../../bower_components/bootstrap/scss/root";
 @import "../../bower_components/bootstrap/scss/reboot";
 @import "../../bower_components/bootstrap/scss/type";
 @import "../../bower_components/bootstrap/scss/images";
-@import "../../bower_components/bootstrap/scss/code";
+@import "../../bower_components/bootstrap/scss/containers";
+//@import "../../bower_components/bootstrap/scss/code";
 @import "../../bower_components/bootstrap/scss/grid";
 @import "../../bower_components/bootstrap/scss/tables";
 @import "../../bower_components/bootstrap/scss/forms";
@@ -27,8 +32,8 @@
 //@import "../../bower_components/bootstrap/scss/animation";
 @import "../../bower_components/bootstrap/scss/dropdown";
 @import "../../bower_components/bootstrap/scss/button-group";
-@import "../../bower_components/bootstrap/scss/input-group";
-@import "../../bower_components/bootstrap/scss/custom-forms";
+//@import "../../bower_components/bootstrap/scss/input-group";
+//@import "../../bower_components/bootstrap/scss/custom-forms";
 @import "../../bower_components/bootstrap/scss/nav";
 //@import "../../bower_components/bootstrap/scss/navbar";
 @import "../../bower_components/bootstrap/scss/card";
@@ -53,3 +58,4 @@
 
 // Utility classes
 @import "../../bower_components/bootstrap/scss/utilities";
+@import "../../bower_components/bootstrap/scss/helpers";

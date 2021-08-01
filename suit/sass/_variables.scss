@@ -1,5 +1,7 @@
 // Enable Flex | Welcome to the future :)
 // --------------------------------------------------
+@use "sass:math";
+
 $enable-flex: true;
 
 // Colors
@@ -78,7 +80,7 @@ $text-muted: $gray-light;
 $sidebar-width: 200px;
 $grid-gutter-width-base: 1.875rem;
 $header-padding-horizontal: $grid-gutter-width-base;
-$header-padding-vertical: $grid-gutter-width-base/1.8;
+$header-padding-vertical: math.div($grid-gutter-width-base, 1.8);
 $nav-padding-horizontal: $grid-gutter-width-base + .75rem;
 $footer-height: 66px;
 $vertical-menu-width: 230px;
