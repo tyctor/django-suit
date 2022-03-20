@@ -3,10 +3,6 @@
 
 {% block search %}{% suit_search_form cl %}{% endblock %}
 
-{% block object-tools %}
-{# this block is copied in search_form.html to have the add button in the right div I case horizontal filter with a lot of filters #}
-{% endblock %}
-
 {% block filters %}
     {% if cl.has_filters %}
         <div id="changelist-filter">{% for spec in cl.filter_specs|suit_list_filter_vertical:cl %}
